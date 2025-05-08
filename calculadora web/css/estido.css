@@ -1,0 +1,18 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justifi-content: center;
+  align-items: center;
+  height: 100;
+  margin: 0;
+}
+
+header h1{
+  text-align: center;
+}
+
+#calculadora {
+  backgrund-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rdba( 0, 0, 0, 0.1);
