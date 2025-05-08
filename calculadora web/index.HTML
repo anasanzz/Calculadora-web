@@ -6,3 +6,34 @@
    <title> Calculadora Web</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/estilo.css">
+   <script src= "js/script.js" defer></script>
+</head>
+<body>
+   <header>
+      <h1>Mi Calculadora Web</h1>
+   </header>
+   <main>
+      <div id="calculadora">
+         <input type="text" id="display" readonly>
+         <div class="botones">
+            <button onclick="numeroPulsado('7')">7</button>
+            <butoon onclick="numeroPulsado('8')">8</button>
+            <button onclick="numeroPulsado('9')">9</button>
+            <button onclick="resetearCalculadora()">C</button>
+            <button onclick="numeroPulsado('4')">4</button>
+            <button onclick="numeroPulsado('5')">5</button>
+            <button onclick="numeroPulsado('6')">6</button>
+            <button onclick="operadorPulsado('/')">/</button>
+            <button onclick="numeroPulsado('1')">1</button>
+            <button onclick="numeroPulsado('2')">2</button>
+            <button onclick="numeroPulsado('3')">3</button>
+            <button onclick="operadorPulsado('*')">*</button>
+            <button onclick="numeroPulsado('0')">0</button>
+            <button onclick="igualPulsado()">=</button>
+            <button onclick="operadorPulsado('-')">-</button>
+            <button onclick="operadorPulsado('+')">+</button>
+         </div>
+      </div>
+   </main>
+</body>
+</html>
