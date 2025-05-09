@@ -16,3 +16,8 @@ header h1{
   backgrund-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 15px rdba( 0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+botones¨{
+  display: grid
