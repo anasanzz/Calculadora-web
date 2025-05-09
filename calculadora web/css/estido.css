@@ -20,4 +20,6 @@ header h1{
 }
 
 botones{
-  display: grid
+  display: grid;
+  grid-templane-columns: repeat(4, 1fr)
+  gap: 10 px
